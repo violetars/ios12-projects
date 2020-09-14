@@ -58,13 +58,29 @@
 			children = (
 				796076A7250A3D86006319B6 /* AppDelegate.swift */,
 				796076A9250A3D86006319B6 /* SceneDelegate.swift */,
-				796076AB250A3D86006319B6 /* ViewController.swift */,
-				796076AD250A3D86006319B6 /* Main.storyboard */,
+				796076BC250A3E0E006319B6 /* Controller */,
+				796076BB250A3DE5006319B6 /* Storyboard */,
 				796076B0250A3D89006319B6 /* Assets.xcassets */,
-				796076B2250A3D89006319B6 /* LaunchScreen.storyboard */,
 				796076B5250A3D89006319B6 /* Info.plist */,
 			);
 			path = "01-iamrich";
+			sourceTree = "<group>";
+		};
+		796076BB250A3DE5006319B6 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				796076AD250A3D86006319B6 /* Main.storyboard */,
+				796076B2250A3D89006319B6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		796076BC250A3E0E006319B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				796076AB250A3D86006319B6 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9S3RNH4AX;
 				INFOPLIST_FILE = "01-iamrich/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9S3RNH4AX;
 				INFOPLIST_FILE = "01-iamrich/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
